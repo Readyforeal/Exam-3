@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
+        <script src="main.js"></script>
+    </head>
+
+    <body>    
+        <div class="container py-5">
+            <h1 class="display-4 py-5">RNG</h1>
+
+            <button id="btn-rand" type="button" class="btn btn-primary">Generate Random</button>
+            <button id="btn-even" type="button" class="btn btn-success">Show Even</button>
+            <button id="btn-odd" type="button" class="btn btn-danger">Show Odd</button>
+
+            <p id="random-output" class="pt-3"></p>
+            <p id="even-output"></p>
+            <p id="odd-output"></p>
+
+            <h1 class="display-4 py-5">AJAX Stock</h1>
+            <button id="ajax" type="button" class="btn btn-danger mb-2">Call AJAX</button>
+            <p class="lead text-danger mb-4">API allows only 5 calls per minute.</p>
+
+            <p id="comp-0"></p>
+            <p id="comp-1"></p>
+            <p id="comp-2"></p>
+            <p id="comp-3"></p>
+            <p id="comp-4"></p>
+        </div>
+    </body>
+
+</html>
